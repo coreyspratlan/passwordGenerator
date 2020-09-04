@@ -10,7 +10,9 @@ Password Generator takes 5 criteria from the user:
     4. A choice of numbers to be included.
     5. A choice of special characters to be included.
 
-    Once the criteria has been selected and the user clicks the "GENERATE" button, a password matching the user criteria will be displayed in the text area.  Click the icon at the bottom of the page to see the code.
+    Once the criteria has been selected and the user clicks the "GENERATE" button, 
+    a password matching the user criteria will be displayed in the text area.  
+    Click the icon at the bottom of the page to see the code.
 
 ## User Story
 
