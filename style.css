@@ -1,0 +1,28 @@
+.header {
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.card-header-red {
+    background-color: red;
+    padding: 20px;
+}
+
+#password {
+    color: rgb(0, 0, 0)
+}
+
+.footer {
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
