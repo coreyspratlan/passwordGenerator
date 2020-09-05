@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Password Generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -13,44 +14,46 @@
 <body>
     <div style="height: 150px;">
         <h1 class="header"><b>PASSWORD GENERATOR</b></h1>
-        <container>
+        <container class="container-fluid">
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="card w-50 p-0">
-                    <div class="card-header card-header-red bg-danger ">
-                    </div>
-                    <div class="card-body border border-danger">
-                        <h2 class=" card-title text-center">Click the button below to generate a secure password </h2>
-                        <br>
-                        <p class="card-text">
-                        <div class="form-group">
-                            <label for="formGroupExampleInput"></label>
+                <div class="col-md-12">
+                    <div class="card mx-auto w-50 p-0">
+                        <div class="card-header card-header-red bg-danger ">
                         </div>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput2"></label>
-                            <div class="text-center">
-                                <a class="btn btn-danger" id="generate"><b>GENERATE</b></a>
+                        <div class="card-body border border-danger">
+                            <h4 class=" card-title text-center">Click the button below to generate a secure password
+                            </h4>
+                            <br>
+                            <p class="card-text">
+                            <div class="form-group">
+                                <label for="formGroupExampleInput"></label>
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2"></label>
+                                <div class="text-center">
+                                    <a class="btn btn-danger" id="generate"><b>GENERATE</b></a>
+                                    <br>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="text-center w-100%">
+                                    <textarea rows="4" cols="50" name="password" id="password"
+                                        class="border-primary form-control" style="min-width: 100%" readonly></textarea>
+                                </div>
+                                <br>
+                                <p class="text-center">To see the code, click the icon in the footer. Enjoy!</p>
                                 <br>
                             </div>
-                            <br>
-                            <br>
-                            <div class="text-center w-100%">
-                                <textarea rows="4" cols="50" name="password" id="password" class="border-primary"
-                                    readonly></textarea>
-                            </div>
-                            <br>
-                            <p class="text-center">To see the code, click the icon in the footer. Enjoy!</p>
-                            <br>
                         </div>
-                    </div>
-                    <div class=" card card-footer text-muted bg-danger">
+                        <div class="card-header card-header-red bg-danger">
+                        </div>
                     </div>
                 </div>
             </div>
         </container>
         <container>
-            <div>
-                <nav class=" footer">
+            <div class="footer-div">
+                <nav class="footer navbar-fixed-bottom container-fluid">
                     <p><a class="" href="https://github.com/coreyspratlan/passwordGenerator" target="blank">💻</a></p>
                 </nav>
             </div>
