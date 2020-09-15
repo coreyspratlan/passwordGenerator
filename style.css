@@ -4,7 +4,7 @@
     text-align: center;
     font-size: 35px;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .card-header-red {
@@ -28,6 +28,11 @@
     bottom: 0;
     margin-bottom: 0;
 }
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
 
 /* .footer-div {
     background-color: blue;
